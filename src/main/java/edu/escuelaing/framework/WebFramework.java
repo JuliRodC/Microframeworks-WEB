@@ -73,4 +73,11 @@ public class WebFramework {
         if (path.endsWith(".jpg")) return "image/jpeg";
         return "text/plain";
     }
+    public static Map<String, BiFunction<Request, Response, String>> getRoutes() {
+        return routes;
+    }
+
+    public static String getStaticFilesPath() {
+        return staticFilesPath;
+    }
 }
