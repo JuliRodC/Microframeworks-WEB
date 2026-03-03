@@ -1,0 +1,4 @@
+edu\escuelaing\framework\Response.class
+edu\escuelaing\framework\WebFramework.class
+edu\escuelaing\app\App.class
+edu\escuelaing\framework\Request.class
